@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- Bootstrap CSS: This is basically an index of CSS code so it is easier to do some more complicated code-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript: This is basically an index of JavaScript code so it is easier to do some more complicated code-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- More stylesheets: fonts, colors, etc -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- Link to css code -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- Link to javascript code -->
+        <script src="script.js"></script>
+
+    </head>
+
+    
+    <body>
+        
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- This is the menu nav bar -->
+<div class="topnav" id="myTopnav">
+  <a href="home.html">Home</a>
+  <a href="booking.html">Booking</a>
+  <a href="javascript:void(0);" class="active">Suggestions</a>
+  <!-- the void makes it so you can't click on the page again if you are all ready on it. The hrefs make it actually link to the pages -->
+  <a href="report.html">Report a problem</a>
+  <a href="login.html">Login/Sign up</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    
+    
+<!-- The header bar -->
+    <div class="header">
+        
+        <h1 id="words">Submit a Suggestion</h1>
+        
+    </div>
+    <div class="spacer"></div>
+    
+    <div class="hub">
+    <div class="element">
+    <form>
+        <label for="suggestion">Suggestion:</label><br>
+        <input type="text" id="suggestion" name="suggestion"><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+    </div>
+    
+</body>
+
+</html>
